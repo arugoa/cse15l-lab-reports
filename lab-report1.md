@@ -41,3 +41,9 @@ $ cd # Reveals the directory you are in
 
 $ ls # Shows the files in your directory
 ```
+
+
+To log out, you can use the command `exit`.
+
+
+**DONT MESS UP**
