@@ -36,8 +36,8 @@ Enter your course password (usually the same as your AD password) and press ente
 
 You can now test out various commands on the command line such as:
 
-'''
+```
 $ cd # Reveals the directory you are in
 
 $ ls # Shows the files in your directory
-'''
+```
