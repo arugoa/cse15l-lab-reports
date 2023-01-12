@@ -20,6 +20,6 @@ $ ssh cs15lwi23zz@ieng6.ucsd.edu
 
 Where you should replace zz with your unique account. You can find your course account at [https://sdacs.ucsd.edu/cgi-bin/gpstart](https://sdacs.ucsd.edu/cgi-bin/gpstart) by entering your ucsd uername and pid.
 
-Once you enter that, The terminal will ask you for your password: 
+Once you enter that, the terminal will ask you for your password: 
 
 ![Image]()
