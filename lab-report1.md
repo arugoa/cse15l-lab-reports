@@ -22,4 +22,12 @@ Where you should replace zz with your unique account. You can find your course a
 
 Once you enter that, the terminal will ask you for your password: 
 
+![Image](https://arugoa.github.io/cse15l-lab-reports/image_2023-01-12_112942494.png)
+
+Enter your course password (usually the same as your AD password) and press enter. Do not worry if you cannot see your password while typing it, that is a security feature of the terminal.
+
+### Once you are in the Remote desktop, your screen should look like this: 
+
 ![Image]()
+
+
