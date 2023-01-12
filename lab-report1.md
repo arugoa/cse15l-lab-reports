@@ -10,4 +10,10 @@ After downloading it, open VS Code. It should look something like this:
 
 ## Part 2: Opening SSH using terminal
 
-In VS Code, open the terminal either using the button on the top left of the window, or by using the shortcut _Ctrl + Shift + `_
+In VS Code, open the terminal either using the button on the top left of the window, or by using the shortcut _Ctrl + Shift + `_ 
+
+Once your terminal is open, enter this:
+
+```
+$ ssh cs15lwi23zz@ieng6.ucsd.edu
+```
