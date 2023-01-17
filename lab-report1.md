@@ -30,7 +30,7 @@ Enter your course password (usually the same as your AD password) and press ente
 
 ![Image]()
 
-(I do not know how it looks because I have not completed this step on this bumass laptop)
+(I do not know how it looks because I have not completed this step due to technical issues)
 
 ## Part 3: Testing out commands
 
@@ -45,5 +45,3 @@ $ ls # Shows the files in your directory
 
 To log out, you can use the command `exit`.
 
-
-**DONT MESS UP**
