@@ -28,7 +28,7 @@ Enter your course password (usually the same as your AD password) and press ente
 
 ### Once you are in the Remote desktop, your screen should look like this: 
 
-![Image]()
+![Image](https://arugoa.github.io/cse15l-lab-reports/ssh.png)
 
 (I do not know how it looks because I have not completed this step due to technical issues)
 
