@@ -41,6 +41,7 @@ $ cd # Reveals the directory you are in
 
 $ ls # Shows the files in your directory
 ```
+These commands are very useful when accessing files in the terminal. They allow you to check if a file is in a certain directory, and even open specific directories using absolute and local paths
 
 
 To log out, you can use the command `exit`.
