@@ -136,7 +136,109 @@ Various observations are:
 
 ## Part 2: Bugs and How to Fix Them
 
+The following code is supposed to combine two lists of Strings in alphabetical order:
 
+```
+// Takes two sorted list of strings (so "a" appears before "b" and so on),
+  // and return a new list that has all the strings in both list in sorted order.
+  static List<String> merge(List<String> list1, List<String> list2) {
+    List<String> result = new ArrayList<>();
+    int index1 = 0, index2 = 0;
+    while(index1 < list1.size() && index2 < list2.size()) {
+      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
+        result.add(list1.get(index1));
+        index1 += 1;
+      }
+      else {
+        result.add(list2.get(index2));
+        index2 += 1;
+      }
+    }
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      index1 += 1;
+    }
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index1 += 1;
+    }
+    return result;
+  }
+```
+
+However, it runs into an issue with the last while loop because the while loop can never end. This is shown in the second test screenshot shown below:
+
+```
+    public void mergetest() {
+        List<String> input1 = new ArrayList<>();
+        input1.add("apple");
+        input1.add("banana");
+        input1.add("orange");
+        
+        List<String> input2 = new ArrayList<>();
+        input2.add("bear");
+        input2.add("cat");
+        input2.add("lion");
+        
+        ArrayList<String> output = new ArrayList<String>(List.of("apple", "banana", "bear", "cat", "lion", "orange"));
+        ArrayList<String> actual = new ArrayList<String>(ListExamples.merge(input1, input2));
+        assertTrue(output.equals(actual));
+    }
+```
+
+![Image](JUnit1.png)
+
+```
+    public void mergetest() {
+        List<String> input1 = new ArrayList<>();
+        input1.add("apple");
+        input1.add("banana");
+        input1.add("orange");
+        
+        List<String> input2 = new ArrayList<>();
+        input2.add("bear");
+        input2.add("cat");
+        input2.add("lion");
+        input2.add("tiger");
+        
+        ArrayList<String> output = new ArrayList<String>(List.of("apple", "banana", "bear", "cat", "lion", "orange", "tiger"));
+        ArrayList<String> actual = new ArrayList<String>(ListExamples.merge(input1, input2));
+        assertTrue(output.equals(actual));
+    }
+```
+
+![Image](JUnit2.png)
+
+
+The code required to fix this would change the index1 in the last while loop to index2, like so:
+
+```
+// Takes two sorted list of strings (so "a" appears before "b" and so on),
+  // and return a new list that has all the strings in both list in sorted order.
+  static List<String> merge(List<String> list1, List<String> list2) {
+    List<String> result = new ArrayList<>();
+    int index1 = 0, index2 = 0;
+    while(index1 < list1.size() && index2 < list2.size()) {
+      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
+        result.add(list1.get(index1));
+        index1 += 1;
+      }
+      else {
+        result.add(list2.get(index2));
+        index2 += 1;
+      }
+    }
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      index1 += 1;
+    }
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index2 += 1;
+    }
+    return result;
+  }
+```
 
 
 ## Part 3: Takeaways from The Previous Weeks
