@@ -142,6 +142,9 @@ Various observations are:
 ## Part 3: Takeaways from The Previous Weeks
 
 I learnt how to make and run servers on my laptop or using ssh. This was really cool to me because I always wondered how people used to run Minecraft servers on their PCs.
+
 Another interesting thing I learnt is how to use JUNIT testing to find bugs in programs. I am going to be using them in future CSE Programming Assignements for sure!
+
 Cloning files and forking repositories with Github Desktop was a fun experience, and I even used it during the BPC that took place on Saturday!
+
 Overall, these two weeks were very enjoyable and I learnt a lot.
