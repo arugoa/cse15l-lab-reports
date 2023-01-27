@@ -166,8 +166,6 @@ The following code is supposed to combine two lists of Strings in alphabetical o
   }
 ```
 
-However, it runs into an issue with the last while loop because the while loop can never end. This is shown in the second test screenshot shown below:
-
 ```
     public void mergetest() {
         List<String> input1 = new ArrayList<>();
@@ -187,6 +185,9 @@ However, it runs into an issue with the last while loop because the while loop c
 ```
 
 ![Image](JUnit1.png)
+
+However, it runs into an issue with the last while loop because the while loop can never end. This is shown in the second test screenshot shown below:
+
 
 ```
     public void mergetest() {
