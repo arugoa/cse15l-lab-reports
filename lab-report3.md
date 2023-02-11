@@ -32,3 +32,10 @@ This command only returns the paths of the files which contain the PATTERN speci
 
 ![Image](example4.png)
 
+### grep -4 "PATTERN" DIRECTORY
+
+This command searches all files in every subdirectory in the specified directory for the pattern.
+
+![Image](example5.png)
+
+![Image](example6.png)
