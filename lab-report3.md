@@ -26,5 +26,9 @@ This command ignores case distinctions in the pattern (string) you enter as well
 
 ### grep -l "PATTERN" FILE
 
-This command only returns the first file which contains the PATTERN specified.
+This command only returns the paths of the files which contain the PATTERN specified, without showing the content.
+
+![Image](example3.png)
+
+![Image](example4.png)
 
