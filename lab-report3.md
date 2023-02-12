@@ -10,6 +10,7 @@ I found various applications and ways to use grep by checking the ``` man grep `
 
 ![Image](man_grep_1.png)
 
+![Image](man_grep_3.png)
 
 ## Different commands
 
