@@ -21,6 +21,7 @@ Forking the [repository](https://github.com/ucsd-cse15l-w23/lab7) into my github
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
+
 ```git clone git@github.com:arugoa/lab7.git```
 
 ![Image](step2.png)
@@ -30,6 +31,7 @@ The command was 7 commands up in history
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
+
 ```cd lab7```
 
 ![Image](step3.png)
@@ -39,10 +41,12 @@ The command was 7 commands up in history
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
+
 ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
+
 ```java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestListExamples```
 
 ![Image](step4.png)
