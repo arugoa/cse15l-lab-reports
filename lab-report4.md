@@ -10,14 +10,14 @@ Forking the [repository](https://github.com/ucsd-cse15l-w23/lab7) into my github
 ## Timed challenge Tasks: 
 
 
-4. I logged into ieng6 using my ssh key so I did not have to type in my password. 
+4 I logged into ieng6 using my ssh key so I did not have to type in my password. 
 
 ```ssh cs15lwi23apv@ieng6.ucsd.edu```
 
 ![Image](step1.png)
 
 
-5. I cloned the forked repository using the github ssh key.
+5 I cloned the forked repository using the github ssh key.
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
@@ -27,7 +27,7 @@ The command was 7 commands up in history
 ![Image](step2.png)
 
 
-6. I opened the repository
+6 I opened the repository
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
@@ -37,7 +37,7 @@ The command was 7 commands up in history
 ![Image](step3.png)
 
 
-7. I ran the JUnit tests to show there is an error
+7 I ran the JUnit tests to show there is an error
 
 ```<up><up><up><up><up><up><up><Enter>```
 The command was 7 commands up in history
@@ -52,7 +52,7 @@ The command was 7 commands up in history
 ![Image](step4.png)
 
 
-8. I opened ListExamples.java using nano and edited the file, then showed the correct output
+8 I opened ListExamples.java using nano and edited the file, then showed the correct output
 
 ```nano Li<tab>java<Enter>```
 I used tab to autocomplete the filename.
@@ -68,7 +68,7 @@ and pressed ```Ctrl+O``` to save and ```Ctrl+X``` to quit nano.
 ![Image](step5.png)
 
 
-9. I committed and pushed my code to the github repository using git commands.
+9 I committed and pushed my code to the github repository using git commands.
 
 ```git add *.class *.java```
 To add all the files that must be committed.
